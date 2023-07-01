@@ -1,4 +1,5 @@
 package com.halvfull.sourdoughapp.model
+
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
@@ -12,4 +13,3 @@ data class Dough(
     val folds: Int,
     val roomTempRisingTime: Double,
     val coldRisingTime: Double)
-
